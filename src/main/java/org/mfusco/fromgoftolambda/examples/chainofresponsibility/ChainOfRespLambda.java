@@ -31,7 +31,7 @@ public class ChainOfRespLambda {
     }
 
     public static void main( String[] args ) {
-        File file = new File( File.Type.AUDIO, "Dream Theater  - The Astonishing" );
+        File file = new File( File.Type.TEXT, "Dream Theater  - The Astonishing" );
 
         System.out.println(
         Stream.<Function<File, Optional<String>>>of(
